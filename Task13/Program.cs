@@ -13,6 +13,6 @@ int number = Convert.ToInt32(Console.ReadLine());
  }
 else
 {
-   number = number / 1%10;
+   number = number%10;
    Console.WriteLine($"Третья цифра {number}"); 
 }
