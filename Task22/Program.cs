@@ -13,7 +13,7 @@ void TableSquare (int num)
     int i = 1;
     while (i <= num)
     {
-      Console.WriteLine($"{i} {i*i}");
+      Console.WriteLine($"{i}->{i*i}");
       i++;  
     }
 
